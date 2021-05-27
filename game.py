@@ -4,6 +4,8 @@ import random
 
 print("Rock, Paper, Scissors, Shoot!")
 
+print("Welcome Player One")
+
 user_choice = input("Please choose one of 'rock', 'paper', 'scissors': ")
 
 #print(user_choice)
@@ -11,7 +13,7 @@ print("User Choice: ", user_choice)
 
 
 
-# valudate the input such that only if it is one of the expected values
+# validate the input such that only if it is one of the expected values
 # ... will we continute with the rest of the program
 # ... otherwise we'll stop the program before it tries to do anything else
 # ... and we'll ask the user to run the program again
