@@ -27,5 +27,9 @@ valid_options = ["rock", "paper", "scissors"]
 computer_choice = random.choice(valid_options)
 print("Computer Choice: ", computer_choice)
 
+if (user_choice == computer_choice):
+    print ("The game is tied. Try one more time!")
+    exit()
+
 
 print("This is the end of our game. Play again!")
