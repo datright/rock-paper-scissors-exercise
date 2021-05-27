@@ -31,5 +31,22 @@ if (user_choice == computer_choice):
     print ("The game is tied. Try one more time!")
     exit()
 
+elif (user_choice == "rock"): 
+    if (computer_choice == "paper"):
+        print ("Oh, the computer won. It's ok.")
+    else:
+        print ("Congrats! You won!")
+
+elif (user_choice == "paper"): 
+    if (computer_choice == "scissors"):
+        print ("Oh, the computer won. It's ok.")
+    else:
+        print ("Congrats! You won!")
+
+elif (user_choice == "scissors"): 
+    if (computer_choice == "rock"):
+        print ("Oh, the computer won. It's ok.")
+    else:
+        print ("Congrats! You won!")        
 
 print("This is the end of our game. Play again!")
