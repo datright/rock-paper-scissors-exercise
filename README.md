@@ -8,6 +8,6 @@
      1. Use your Git client to "clone" (download) the remote fork onto your local machine. We'll refer to this as the "local repository".
      2. Use the command-line to navigate into the local repository.
      3. Use the `conda` utility to create a new virtual environment with the latest version of Python, then activate it.
-     4. Use the `pip` utility to install any required third-party packages specified in the repo's "requirements.txt" file.
+     4. Use the `pip` utility to install required third-party package specified in the repo's "requirements.txt" file, which in this case is "python-dotenv"
      5. Use a ".env" file approach to set an environment variable to customize the user name. You can customize the user name by typing PLAYER_NAME="Your choice"
      6. Use the `python` utility to run the Python file(s).
